@@ -1,0 +1,44 @@
+.tile__intro {
+    width: 100%;
+    background-color: var(--clr-tile);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.intro {
+    display: flex;
+    max-width: 1200px;
+}
+
+.intro__section {
+    width: 100%;
+}
+
+.intro__subtitle {
+    background-color: var(--clr-main);
+    color: var(--clr-light);
+    text-align: right;
+    padding-right: 20px;
+}
+
+@media (max-width: 800px) {
+    .intro {
+        flex-direction: column;
+    }
+
+    .intro__section {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+}
+
+@media (min-width: 800px) {
+    .intro__section {
+        padding-left: 1em;
+        padding-top: 2em;
+    }
+}
