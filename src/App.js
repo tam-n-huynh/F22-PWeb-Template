@@ -1,18 +1,18 @@
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+
 //Components
-import Header from './Components/Header';
-import Introduction from './Components/Introduction';
-import Experiences from './Components/Experiences';
-import Portfolio from './Components/Portfolio';
-import Contacts from './Components/Contacts';
+import HomePage from './Components/HomePage';
+import ProjectPage from './Components/ProjectPage';
 
 function App() {
   return (
     <div class="App">
-      <Header/>
-      <Introduction/>
-      <Experiences/>
-      <Portfolio/>
-      <Contacts/>
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage/>}/>
+          <Route path="/projects" element={<ProjectPage/>}/>
+        </Routes>
+      </Router>
     </div>
   );
 }

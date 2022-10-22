@@ -1,0 +1,32 @@
+.proj__tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 2em;
+    flex-direction: column;
+}
+
+.project {
+    width: 100%;
+    max-width: 900px;
+    margin-bottom: 3em;
+}
+
+.proj_btn {
+    width: 10em;
+    height: 4em;
+    background-color: var(--clr-main);
+    color: white;
+    border: none;
+    margin-bottom: 50px;
+}
+
+.proj_btn:hover {
+    opacity: 80%;
+}

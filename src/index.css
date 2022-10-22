@@ -5,10 +5,11 @@
 }
 
 /* Custom properties */
+html {
+  scroll-behavior: smooth;
+}
 
 :root {
-  --ff-primary: ;
-  --ff-secondary: ;
 
   --fw-ref: 300;
   --fw-bold: 900;

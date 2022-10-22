@@ -5,7 +5,7 @@ import './contacts.css'
 
 const Contacts = () => {
     return (
-        <body class="cont__tile">
+        <body id="contacts" class="cont__tile">
             <h1 class="cont_title">Contact Me</h1>
 
             <section class="contacts">

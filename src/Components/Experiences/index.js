@@ -16,8 +16,8 @@ const Experiences = () => {
                     <div class="exp">
                         <img src={Image1}/>
                         <div class="exp__desc">
-                            <h1 class="exp__name">SASE - Technical Chair</h1>
-                            <p class="exp__body">Does whatever technical chair does</p>
+                            <h1 class="exp__name">SASE - Member</h1>
+                            <p class="exp__body">Engage with SASE members to develop professionally.</p>
                         </div>
                     </div>
                     {/* COPY PASTE END HERE */}
@@ -25,7 +25,7 @@ const Experiences = () => {
                         <img src={Image2}/>
                         <div class="exp__desc">
                             <h1 class="exp__name">Azurion - SWE Intern</h1>
-                            <p class="exp__body">Developed middle end super cloud server. </p>
+                            <p class="exp__body">Deployed my website on azure.</p>
                         </div>
                     </div>
 
@@ -33,7 +33,7 @@ const Experiences = () => {
                         <img src={Image3}/>
                         <div class="exp__desc">
                             <h1 class="exp__name">Publix - Self Checkout Intern</h1>
-                            <p class="exp__body">Helped customers find coupons on the blockchain</p>
+                            <p class="exp__body">Scanned my own grocerys every time I go to Publix.</p>
                         </div>
                     </div>
                 </div>
