@@ -1,16 +1,8 @@
 .logo {
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--clr-main);
     height: 2em;
-    font-size: 1em;
-    font-style: italic;
 }
 
 .nav__list {
-    list-style: none;
     display: flex;
     height: 100%;
     flex-direction: row;
@@ -35,5 +27,4 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 1em;
-    margin: auto;
 }
