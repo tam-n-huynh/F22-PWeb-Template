@@ -46,6 +46,12 @@
     opacity: 70%;
 }
 
+.port-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 @media (max-width: 800px) {
     .port__grid {

@@ -1,22 +1,12 @@
 .self__image {
     grid-area: img;
-    min-width: 250px;
-    max-width: 30%;
+    height: 450px;
     position: relative;
     z-index: 2;
 }
 
 .self__image {
     box-shadow: var(--bs);
-}
-
-.tile__intro {
-    width: 100%;
-    background-color: var(--clr-tile);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2em 1em;
 }
 
 .tile__intro {
@@ -49,13 +39,19 @@
     padding-bottom: 0.5em;
 }
 
+.icon svg {
+    font-size: 60px;
+    margin: 5px;
+    color: black;   
+  }
+
 @media (min-width: 800px) {
     .intro {
         flex-direction: row;
     }
 
     .intro__section {
-        padding-left: 1em;
-        padding-top: 2em;
+        padding-left: 2em;
+        padding-top: 0em;
     }
 }

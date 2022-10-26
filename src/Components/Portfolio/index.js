@@ -4,7 +4,6 @@ import {useNavigate} from 'react-router-dom';
 
 import Proj1 from '../../images/project1.png';
 import Proj2 from '../../images/project2.png';
-import Proj3 from '../../images/project3.png';
 
 import './portfolio.css';
 
@@ -27,7 +26,9 @@ const Portfolio = () => {
 
             </section>
 
-            <button onClick={() => {navigate("/projects")}} class="port__btn">See More</button>
+            <div class="port-div">
+                <button onClick={() => {navigate("/projects")}} class="port__btn">See More</button>
+            </div>
         </body>
     )
 }
