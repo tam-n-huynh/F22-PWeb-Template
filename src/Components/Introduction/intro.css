@@ -1,14 +1,3 @@
-.self__image {
-    grid-area: img;
-    height: 450px;
-    position: relative;
-    z-index: 2;
-}
-
-.self__image {
-    box-shadow: var(--bs);
-}
-
 .tile__intro {
     width: 100%;
     background-color: var(--clr-tile);
@@ -33,17 +22,11 @@
 .intro__subtitle {
     background-color: var(--clr-main);
     color: var(--clr-light);
-    text-align: left; 
-    padding-left: 20px;
+    text-align: right; 
+    padding-right: 20px;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
 }
-
-.icon svg {
-    font-size: 60px;
-    margin: 5px;
-    color: black;   
-  }
 
 @media (min-width: 800px) {
     .intro {
@@ -51,7 +34,7 @@
     }
 
     .intro__section {
-        padding-left: 2em;
-        padding-top: 0em;
+        padding-left: 1em;
+        padding-top: 2em;
     }
 }

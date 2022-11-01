@@ -3,8 +3,8 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 //Components
 import HomePage from './Components/HomePage';
-import ProjectPage from './Components/ProjectPage';
-import ExperiencePage from './Components/ExperiencePage';
+import ProjectPage from './Pages/ProjectPage/ProjectPage';
+import ExperiencePage from './Pages/ExperiencePage/ExperiencePage';
 
 function App() {
   return (

@@ -1,7 +1,7 @@
 import React from 'react';
 import {useNavigate} from 'react-router-dom';
 
-import logo from '../../images/logo.PNG';
+import logo2 from '../../images/logo2.png';
 
 
 import './Header.css'
@@ -12,7 +12,7 @@ const Header = () => {
     return (
         <body>
             <header>
-                <img class="logo" src={logo}/>
+                <img class="logo" src={logo2}/>
                 <nav class="nav">
                     <u1 class="nav__list">
                         <l1 class="nav__item" onClick={() => {navigate("/")}}><a href="#home" class="nav__link">Home</a></l1>

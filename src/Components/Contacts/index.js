@@ -10,7 +10,7 @@ import './contacts.css'
 const Contacts = () => {
     return (
         <body id="contacts" class="cont__tile">
-            <h1 class="cont_title">Contact Me</h1>
+            <h2 class="cont_title">Contact Me</h2>
             <section class="contacts">
                 <div class="icon">
                 <a href="https://www.linkedin.com/in/antoniovillarreal2024/" rel="noreferrer" target="_blank">
